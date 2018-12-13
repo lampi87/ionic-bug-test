@@ -1,0 +1,56 @@
+    [col-1] {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 8.33333%;
+        -ms-flex: 0 0 8.33333%;
+        flex: 0 0 14.285714285714286%;
+        width: 14.285714285714286%;
+        max-width: 14.285714285714286%;
+        vertical-align: middle;
+    }
+    .col {
+        text-align: center;
+        padding: 5px;
+    }
+    .last-month, .next-month, .currentDate, .otherDate, .selectedDate {
+        padding: 5px;
+        width:30px;
+        height:30px;
+        display:inline-block;
+    }
+    .currentDate, .selectedDate {
+        font-weight: bold;
+        background-color: lightblue;
+        color: white;
+        border-radius: 30px;
+    }
+    .selectedDate {
+        background-color: lightseagreen;
+    }
+    .last-month, .next-month {
+        color: #999999;
+    }
+    .event-done-bullet, .event-abort-bullet {
+        margin: 2px auto;
+        height: 5px;
+        width: 5px;
+        background-color: green;
+        border-radius: 30px;
+    }
+    .event-abort-bullet {
+        background-color: red;
+    }
+    .calendar-body {
+        .grid {
+            padding: 0;
+        }
+        .col:last-child {
+            border-right: none;
+        }
+        .calendar-weekday, .calendar-date {
+            text-align: center;
+            margin: 0;
+        }
+        .calendar-weekday {
+            font-weight: bold;
+        }
+    }

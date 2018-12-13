@@ -1,0 +1,7 @@
+{
+  "name": "fit-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
